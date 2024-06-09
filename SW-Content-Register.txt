@@ -1,0 +1,10 @@
+NXP Software Content Register
+
+Package:                   dm-nxp_mcu_easy_bootloader
+
+Version:                   1.0.0
+Outgoing License:          BSD-3-Clause
+License File:              LICENSE
+Description and comments:  A simplified C implementation of the official NXP [MCUBOOT](https://www.nxp.com/support/developer-resources/software-development-tools/mcuxpresso-software-and-tools/mcuboot-mcu-bootloader-for-nxp-microcontrollers:MCUBOOT). The majority of the features have been stripped away, retaining only the serial port download functionality. It can be used in conjunction with the official Windows command line tool `blhost` or the GUI tool `Kinetis Flash Tool` to achieve a bootloader based on the MCU serial port.
+Release Location:          https://github.com/nxp-appcodehub/dm-nxp_mcu_easy_bootloader
+Origin:                    NXP (BSD-3-Clause)

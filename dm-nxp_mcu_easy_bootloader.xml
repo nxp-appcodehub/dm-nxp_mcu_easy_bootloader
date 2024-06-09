@@ -1,0 +1,24 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/alp.xsd" id="dm-nxp_mcu_easy_bootloader" type="demo" format="projectfile" name="NXP_MCU_easy_bootloader">
+    <display_title>
+        Very simple serial bootloader for NXP MCU
+    </display_title>
+    <overview>
+        <![CDATA[Simplified version of XP official MCUBOOT, implemented in C, removing most of the features and only retaining serial download functionality.]]>
+    </overview>
+    <toolchains>
+        <toolchain name="mdk"></toolchain>
+    </toolchains>
+    <families>
+        <family name="lpc"></family>
+        <family name="kinetis"></family>
+    </families>
+    <nxp_compatible_hw>
+        <custom_hw></custom_hw>
+    </nxp_compatible_hw>
+    <peripherals>
+        <peripheral name="flash"></peripheral>
+    </peripherals>
+    <categories>
+        <category name="tools"></category>
+    </categories>
+</data:item>
